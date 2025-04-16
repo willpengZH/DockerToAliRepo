@@ -2,20 +2,24 @@
 
 #redis:7.4.1
 #mysql:8.4.3
-mongo:4.4
-docker.elastic.co/elasticsearch/elasticsearch-wolfi:8.17.0
-docker.elastic.co/elasticsearch/elasticsearch:8.17.0
-docker.elastic.co/kibana/kibana:8.17.0
+#mongo:4.4
+#docker.elastic.co/elasticsearch/elasticsearch-wolfi:8.17.0
+#docker.elastic.co/elasticsearch/elasticsearch:8.17.0
+#docker.elastic.co/kibana/kibana:8.17.0
+#library/logstash:8.17.0
+elastic/logstash:8.17.0
 
-apache/kafka:4.0.0
-apache/rocketmq:5.3.2
+#apache/kafka:4.0.0
+#apache/rocketmq:5.3.2
 
+library/zookeeper:3.9.3
 #nacos/nacos-server:v2.4.3
 #nacos/nacos-server:v2.1.0
+apache/dubbo-admin:0.6.0
 
-apache/skywalking-ui:10.2.0
-prom/prometheus:v3.2.1
-grafana/grafana:11.6.0
+#apache/skywalking-ui:10.2.0
+#prom/prometheus:v3.2.1
+#grafana/grafana:11.6.0
 
 #ghcr.io/sozercan/llama3.1:8b
 #ghcr.io/open-webui/open-webui:ollama
